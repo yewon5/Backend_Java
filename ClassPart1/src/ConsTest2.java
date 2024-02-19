@@ -15,9 +15,9 @@ class ClassDemo3 {
 	//}
 
 	 ClassDemo3(int i, double d){ //37번 생성자 메서드
-			//검증 코드
-			iValue = i;
-			dValue = d;
+		//검증 코드
+		iValue = i;
+		dValue = d;
 	 }
 }
 
