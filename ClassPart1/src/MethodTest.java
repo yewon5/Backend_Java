@@ -29,7 +29,7 @@ public class MethodTest {
 		
 		System.out.println("두 수의 합계");
 		MethodTest mt = new MethodTest();
-		int num3 = mt.sum(num1, num2); //11번 → 12번 → 33번 
+		int num3 = mt.sum(num1, num2); //11번 → 12번 → 33번 Stack에 주소를 저장해둔다.
 		System.out.println("결과 : " + num3);
 	}
 }
