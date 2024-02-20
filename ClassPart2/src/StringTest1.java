@@ -15,10 +15,12 @@ public class StringTest1 {
 		name1 = "홍길동";
 		System.out.println(name1);
 		
-		String name2 = new String("임꺽정");
+		//방법2 인자를 넘겨서 생성
+		String name2 = new String("임꺽정"); 
 		System.out.println(name2);
 		
-		String name3 = "김수한무거북이와두루미";
+		//방법3 문자열로 생성
+		String name3 = "김수한무거북이와두루미"; 
 		System.out.println(name3);
 		System.out.println();
 		
