@@ -24,6 +24,7 @@ public class Sungjuk_v3 {
 		students[1] = new Student("임꺽정", 2, 76, 55);
 		students[2] = new Student("신돌석", 3, 85, 73);
 		
+		
 		//총점
 		for(int i=0; i<students.length; i++) {
 			students[i].tot = students[i].kor + students[i].eng; 

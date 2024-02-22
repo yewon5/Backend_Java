@@ -6,7 +6,8 @@ public class StringTest2 {
 		String str1 = "java";
 		String str2 = new String("java"); 
 
-		System.out.println(str1.equals(str2)); //true equals 값을 비교한다.
+		System.out.println(str1.equals(str2)); //true equals 값을 비교한다. 
+		//원래는 주소를 비교하는 건데 스트링클래스에서만 값을 비교한다. 스트링클래스가 오버라이딩 했기때문에
 		System.out.println(str1==str2); //false == 주소를 비교한다.
 		
 		
