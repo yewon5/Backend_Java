@@ -33,4 +33,9 @@ public class CmsExt extends Cms{
 		super.display();
 		System.out.println("고객주소 : " + address);
 	}
+	
+	//InheritanceTest 오버라이딩
+	public String toString() {
+		return "[address : " + address + "]";
+	}
 }
