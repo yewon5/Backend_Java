@@ -5,7 +5,7 @@ public class Cms {
 	private char level;
 	//변수 앞에 private을 붙이면 자식 클래스 변수에 오류가 뜬다. 상속은 됐지만 접근을 못하는 것. 어떻게 해결할까?
 	
-	//아래의 생성자를 만들때는 기본생성자도 꼭 명시해두기.
+	//아래처럼 매개변수가 있는 생성자를 만들때는 기본생성자도 꼭 명시해두기.
 	public Cms() {} 
 	
 	//클래스에 정의된 필드(멤버 변수)를 기반으로 생성자를 자동으로 생성 (Source → Generate Constructor using Fields)

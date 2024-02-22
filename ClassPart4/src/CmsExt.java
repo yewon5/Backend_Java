@@ -29,7 +29,7 @@ public class CmsExt extends Cms{
 	}
 */
  	//super를 추가한다.
-	void display() { //display(int i) 이렇게하면 오버로딩임
+	void display() {
 		super.display();
 		System.out.println("고객주소 : " + address);
 	}
