@@ -39,20 +39,23 @@ public class StringTokenizerTest { //StringTokenizer 문자열을 나눠주는 �
 		
 		token = new StringTokenizer(str3, ":,"); //여러개의 구분자로 구분 가능
 		 
+		String[] labels =  {"책 이름 :", "저자 :", "     ", "     ", "     ", "역자 :", "출판사 :", "출판연도 :", "가격 :"};
+		int index = 0;
+		
 		while(token.hasMoreElements()) {
-			System.out.println(token.nextToken());
+			String label = labels[index++];
+			System.out.println(label + " " + token.nextToken().trim());
 		}
-		
-		
-		/* 
-		 * 책 이름 : JavaTM 언어 사양 제2판
-		 * 저자 : James Gosling
-		 * 		 Bill joy
-		 * 		 Gilad Bracha
-		 * 역자 : 무라카미 미사아키
-		 * 출판사 : 피어슨 에듀케이션
-		 * 출판연도 : 2000
-		 * 가격 : 5500
-		 */
 	}
 }
+
+/* 
+ * 책 이름 : JavaTM 언어 사양 제2판
+ * 저자 : James Gosling
+ * 		 Bill joy
+ * 		 Gilad Bracha
+ * 역자 : 무라카미 미사아키
+ * 출판사 : 피어슨 에듀케이션
+ * 출판연도 : 2000
+ * 가격 : 5500
+ */
